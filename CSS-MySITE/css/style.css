@@ -19,7 +19,8 @@ h2 {font-size: 2.5rem;
 }  
 .Bottom-cloud {position:absolute;
                 left: 20%;
-            bottom:40%}
+            bottom:40%;
+            size: 2px;}
 .Top-cloud { position: absolute;
             right: 20%;
             Top:10%;            
