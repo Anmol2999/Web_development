@@ -1,34 +1,68 @@
-body { text-align: center;
-    margin: 0px;
-    background-color: #E3FDFD
- }
- h1 {
-    margin: 0 auto 0 auto;
-    font-family: 'Dancing Script', cursive;
-    font-size: 5.623rem;
-    line-height: 2;    
-    animation: myanimation 5s infinite;                 /*16px=100%=1em=1rem #66BFBF  */
+body {
+  text-align: center;
+  margin: 0px;
+  background-color: #e3fdfd;
 }
-h2 {font-size: 2.5rem;
-    font-weight: normal;
-    animation: myanimation 5s infinite;  
+.th1 {
+  margin: 0 auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.623rem;
+  line-height: 2;
+  animation: myanimation 5s infinite; /*16px=100%=1em=1rem #66BFBF  */
+}
+
+.mh1 {
+  color: #00e7ff;
+  font-weight: normal;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  animation: myanimation 5s infinite;
 }
 .Top {
-    padding-top: 100px;
-    background-color: #E3FDFD
-}  
-.Bottom-cloud {position:absolute;
-                left: 20%;
-            bottom:40%;
-            size: 2px;}
-.Top-cloud { position: absolute;
-            right: 20%;
-            Top:10%;            
+  padding-top: 100px;
+  background-color: #e3fdfd;
+}
+.Bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 35%;
+  height: 100px;
+  width: 150px;
+  filter: invert(20%);
+}
+.Top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  height: 100px;
+  width: 150px;
+  filter: invert(20%);
 }
 @keyframes myanimation {
-    0% {color: red;}
-    25%{color:yellow;}
-    50%{color:green;}
-    75%{color:blue;}
-    100% {color: red;}
+  0% {
+    color: red;
   }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+hr {
+  border: 1px;
+  border-style: inset;
+  border-width: 3px;
+  border-bottom: 0px;
+}
+a {
+  font-size: 20px;
+}
