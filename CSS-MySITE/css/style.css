@@ -18,6 +18,11 @@ body {
   text-align: center;
 }
 
+.mh2 {
+  width: 40%;
+  font-size: 30px;
+  margin: auto;
+}
 .th2 {
   animation: myanimation 5s infinite;
 }
@@ -149,4 +154,50 @@ a {
 .bottom {
   text-align: center;
   background-color: #59c1bd;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+.a1 {
+  margin-right: 5px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.a2 {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
 }
